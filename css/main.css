@@ -1,0 +1,26 @@
+/*******************************************************************************************************/
+@charset "utf-8";
+body{ background:#070707; }
+#mp3_player{
+    position: relative;
+    width:1024px; height:600px;
+    margin: 0 auto;
+    background:rgba(0,0,0,1);
+    color: white;
+}
+#mp3_player audio{ width:100%; }
+#analyser_render{
+    position: absolute;
+    left: 0; top:0px;
+    width:1024px; height:600px; 
+}
+#wave1{
+    position: absolute;
+    left: 0; top:0px;
+    width:1024px; height:300px; 
+}
+#wave2{
+    position: absolute;
+    left: 0; top:300px;
+    width:1024px; height:300px; 
+}
