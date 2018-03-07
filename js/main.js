@@ -77,7 +77,5 @@ function frameLooper(){
     ctx1.stroke();
     ctx2.stroke();
 }
-$(document).ready(function(e){
-    initMp3Player();
-});
+$(document).ready(initMp3Player);
 /********************************************************************************/
